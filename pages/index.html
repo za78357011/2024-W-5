@@ -194,14 +194,51 @@
                 Reply
               </button>
 
-              <div class="collapse position-absolute bottom-0 end-0" id="collapseExample">
-                <div class="card card-body align-items-end">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when
-                  the user activates the relevant trigger.
-                  <button class="btn btn-success" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    Reply
-                  </button>
+              <div class="collapse position-absolute bottom-0 end-0 w-100" id="collapseExample">
+                <div class="card">
+                  <div class="card-header">
+                    <div>
+                      <button type="button" class="btn"><span class="fw-bold me-2">Body Text</span><span
+                          class="material-symbols-outlined align-bottom">
+                          arrow_drop_down
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          format_bold
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          format_italic
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          format_list_bulleted
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          format_list_numbered
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          image
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          link
+                        </span></button>
+                      <button type="button" class="btn"><span class="material-symbols-outlined align-bottom">
+                          arrows_outward
+                        </span></button>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <p class="ms-3">Reply an answer…</p>
+                  </div>
+
+                  <div class="d-flex justify-content-end">
+                    <button class="btn btn-outline-success me-3" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Cancel
+                    </button>
+                    <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Reply
+                    </button>
+                  </div>
                 </div>
 
               </div>
